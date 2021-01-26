@@ -1,0 +1,8 @@
+<div class="sm:text-center">
+	<h2 class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-700 text-3xl font-extrabold tracking-tight sm:text-4xl">
+		Progressively Enhanced Email Capture
+	</h2>
+	<p class="mt-6 mx-auto max-w-2xl text-lg text-gray-200">
+		Built with arc.codes, tailwind.css, alpine.js, and eta!
+	</p>
+</div>

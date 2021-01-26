@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<title>This is fun!</title>
+		<link rel=stylesheet type=text/css href=<%= it.css %>>
+		<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+	</head>
+	<body x-data="{ open: false }">
+		<div class="bg-gray-900 h-screen">
+		<div class="py-16 sm:py-24">
+			<div class="relative sm:py-16">
+				<%~ includeFile('./background') %>
+				<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+					<div class="relative rounded-2xl px-6 py-10 bg-gray-800 overflow-hidden shadow-xl sm:px-12 sm:py-20">
+						<%~ includeFile('./email') %>
+						<div class="relative">
+							<%~ includeFile('./cta') %>
+							<%~ includeFile('./form') %>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</body>
+</html>
