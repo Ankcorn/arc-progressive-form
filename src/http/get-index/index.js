@@ -12,6 +12,6 @@ exports.handler = async function http (req) {
       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0',
       'content-type': 'text/html; charset=utf8'
     },
-    body: await eta.renderFile('./main', data)
+    body: await eta.renderFile('index', data)
   }
 }
