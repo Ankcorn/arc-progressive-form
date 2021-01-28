@@ -3,6 +3,7 @@ arc-prog
 
 @http
 get /
+get /success
 post /api/emails
 
 

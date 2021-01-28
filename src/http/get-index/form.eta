@@ -1,7 +1,7 @@
-<form action="#" class="mt-12 sm:mx-auto sm:max-w-lg sm:flex">
+<form method="post" action="/api/emails" class="mt-24 sm:mx-auto sm:max-w-lg sm:flex">
 	<div class="min-w-0 flex-1">
 		<label for="cta_email" class="sr-only">Email address</label>
-		<input id="cta_email" type="email" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600" placeholder="Enter your email">
+		<input id="cta_email" type="email" name="email" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600" placeholder="Enter your email">
 	</div>
 	<div x-data="{ spinner: false }" class="mt-4 sm:mt-0 sm:ml-3">
 		<button
